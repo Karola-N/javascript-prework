@@ -1,0 +1,61 @@
+body {
+    text-align: left;
+    background-color: beige;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+    h2 {
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+    }
+    h2:first-of-type {
+        margin-top: 30px;
+    }
+}
+
+.rules,
+#buttons,
+#messages {
+    position: relative;
+    max-width: 700px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: auto;
+}
+
+#buttons {
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    button {
+        margin: 50px, 10px;
+        color: white;
+        height: 40px;
+        width: 130px;
+        font-weight: 700;
+        background-color: #4CAF50;
+        border-radius: 10px;
+        border: none;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    button:hover {
+        background-color: #3e8e41
+    }
+}
+
+#messages {
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 10px;
+}
